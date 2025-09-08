@@ -1,12 +1,25 @@
-# React + Vite
+# Student Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application built with Vite that allows managing course types, courses, offerings, and student registrations. Features include:
 
-Currently, two official plugins are available:
+✅ Add, edit, delete course types  
+✅ Add, edit, delete courses  
+✅ Associate courses with types through offerings  
+✅ Filter offerings by type  
+✅ Register students for specific offerings  
+✅ View registered students per offering  
+✅ Uses localStorage for persistence
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
 
-## Expanding the ESLint configuration
+- React 18
+- Vite for fast development
+- ESLint for code quality
+- Optional: TypeScript
+- LocalStorage for data persistence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### How to Run
+
+```bash
+npm install
+npm run dev
